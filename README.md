@@ -87,6 +87,42 @@ Toda la documentación interactiva con ejemplos está en **Swagger** (`/api-docs
 - Botones claros y diferenciados (primario, tonal, outline, destructivo)
 - Formularios validados con indicador de guardado
 
+## 📸 Capturas de Pantalla y Evidencias de Prueba
+
+A continuación se presentan las evidencias de las operaciones de creación, edición, muestra y eliminación realizadas en la aplicación:
+
+### 🚗 1. Gestión de Vehículos
+| Acción | Formulario / Proceso | Resultado / Confirmación |
+| :--- | :---: | :---: |
+| **Nuevo Vehículo** | ![Nuevo Vehículo](docs/captures/NuevoVehiculo.png) | ![Muestra Vehículo Creado](docs/captures/MuestraNuevoVehiculocreado.png) |
+| **Confirmación de Creación** | ![Vehículo Creado](docs/captures/VehiculoCreado.png) | ![Vehículo Creado Muestra](docs/captures/Vehiculocreadomuestra.png) |
+| **Editar Vehículo** | ![Editar Vehículo](docs/captures/EditarVehiculo.png) | ![Vehículo Modificado](docs/captures/Vehiculomodificado.png) |
+| **Actualización Confirmada** | ![Vehículo Actualizado](docs/captures/VehiucloActualizado.png) | - |
+| **Eliminar Vehículo** | ![Eliminar Vehículo](docs/captures/EliminarVehiculo.png) | ![Vehículo Eliminado](docs/captures/VehiculoEliminado.png) |
+
+---
+
+### 👤 2. Gestión de Clientes
+| Acción | Formulario / Proceso | Resultado / Confirmación |
+| :--- | :---: | :---: |
+| **Nuevo Cliente** | ![Nuevo Cliente](docs/captures/nuevoCli.png) | ![Muestra Cliente Creado](docs/captures/muestradeClicreado.png) |
+| **Confirmación de Creación** | ![Cliente Creado](docs/captures/clientecreado.png) | - |
+| **Editar Cliente** | ![Editar Cliente](docs/captures/editarcli.png) | ![Clientes Editados](docs/captures/clientes_editados.png) |
+| **Edición Detallada** | ![Editar Tipo Cliente](docs/captures/editarTipoCli.png) | ![Tipo Cliente Editado](docs/captures/Tipoclieditado.png) |
+| **Eliminar Cliente** | ![Eliminar Cliente](docs/captures/EliminarCli.png) | ![Muestra Cliente Eliminado](docs/captures/MuestraCliEliminado.png) |
+
+---
+
+### 🏷️ 3. Gestión de Tipos de Vehículo
+| Acción | Formulario / Proceso | Resultado / Confirmación |
+| :--- | :---: | :---: |
+| **Nuevo Tipo de Vehículo** | ![Nuevo Tipo Vehículo Creado](docs/captures/NuevoTipoVehCreado.png) | ![Tipo Bus Escolar Creado](docs/captures/TipoBusEscolarCreado.png) |
+| **Modificar Tipo de Vehículo** | ![Muestra Bus Modificado](docs/captures/MuestraBusModificado.png) | - |
+| **Eliminar Tipo de Vehículo** | ![Eliminar Tipo Bus](docs/captures/EliminaTipoBus.png) | - |
+
+---
+
 ## Pruebas realizadas
 
 El API fue probado de extremo a extremo contra PostgreSQL real: **26/26 pruebas pasaron**, incluyendo CRUD completo de las 3 entidades, validaciones (400), duplicados (409), llaves foráneas (409) y rutas inexistentes (404).
+
